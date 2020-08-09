@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COVID-19 Report</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    </head>
+    <body>
+        <h1>COVID-19 Report</h1>
+        <div class="column">
+            <select id="countries"></select>
+            <p class="lastUpdate">Last Update:</p>
+            <h2 id="currentCountry"></h2>
+            <div class="mainContent"></div>
+        </div>
+        
+        <div class="chartContainer" class="column">
+            <canvas id="myChart"></canvas>
+        </div>
+
+        <script src="covidapi.js"></script>
+        <script src="covidapi_chart.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,24 @@
+body {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 475px;
+  }
+
+  h1 {
+      border-bottom: solid 1px #222;
+  }
+
+  .column {
+      display: inline-block;
+  }
+
+  .chartContainer {
+      width: 70%;
+      float: right;
+  }
