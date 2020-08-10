@@ -1,2 +1,2 @@
 # covid-tracker
-Simple Tracker of COVID cases
+Simple Report of COVID-19 Cases by Country
